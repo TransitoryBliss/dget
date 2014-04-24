@@ -21,7 +21,7 @@ obj = {
 }
 val = dget('some.prop.deep', obj);
 console.log(val); // "Hello world!"
-nonexisting = dget('non.existing.prop', obj)
+val = dget('non.existing.prop', obj)
 console.log(val); // undefined
 ```
 
