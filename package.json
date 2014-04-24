@@ -1,0 +1,27 @@
+{
+  "name": "dget",
+  "version": "1.0.0",
+  "description": "Find a key deep in an object using string notation.",
+  "main": "dget.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shockwork/dget.git"
+  },
+  "keywords": [
+    "find",
+    "dynamic",
+    "string",
+    "object",
+    "deep",
+    "dget"
+  ],
+  "author": "Robert Stenbom (SHOCKWORK)",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "1.9.1"
+  }
+}
